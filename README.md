@@ -1,12 +1,62 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generador de Contenido con IA: Una Aplicación Full Stack
 
-Currently, two official plugins are available:
+"Este proyecto es un generador de contenido impulsado por IA que demuestra la integración de tecnologías modernas de Front-end y Back-end. La aplicación permite a los usuarios escribir un concepto y recibir contenido generado por IA en respuesta. Su objetivo es servir como un ejemplo de proyecto funcional en un portafolio de desarrollador."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Características Principales
+Generación Inteligente de Contenido: Crea descripciones detalladas y concisas a partir de un simple concepto.
 
-## Expanding the ESLint configuration
+Interfaz de Usuario Intuitiva: Diseño limpio y fácil de usar, desarrollado con React y Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API Segura y Escalable: El back-end utiliza Node.js con Express.js para manejar las peticiones.
+
+Integración con IA: Se conecta a la API de Gemini para potenciar la generación de contenido.
+
+Tecnologías Utilizadas
+Front-end:
+
+React: Biblioteca de JavaScript para construir interfaces de usuario.
+
+Vite: Herramienta de construcción para un desarrollo Front-end rápido.
+
+Back-end:
+
+Node.js: Entorno de ejecución de JavaScript para el lado del servidor.
+
+Express.js: Framework de Node.js para construir aplicaciones web y APIs.
+
+Inteligencia Artificial:
+
+API de Gemini: Proporciona el modelo de IA para la generación de contenido.
+
+Acceso al Proyecto y Demostración en Vivo
+Puedes ver y probar el proyecto en la nube, ya que está desplegado en Render.
+
+Aplicación en Vivo (Demo): [Enlace a tu demo en Render, por ejemplo: ai-content-generator-react.onrender.com].
+
+Configuración para Desarrolladores
+Si eres un desarrollador y quieres ejecutar este proyecto localmente, sigue estos pasos:
+
+Clonar el repositorio:
+
+Bash
+
+git clone [Enlace de tu repositorio de GitHub]
+cd ai-content-generator-react
+Configurar el Back-end:
+
+Asegúrate de tener tus credenciales de la API de Google Gemini configuradas como variables de entorno.
+
+Instala las dependencias y corre el servidor (ej. npm install, node server.js).
+
+Configurar el Front-end:
+
+Instala las dependencias (npm install).
+
+Inicia la aplicación (npm run dev).
+
+Contribuciones y Licencia
+Contribuciones: ¡Las contribuciones son bienvenidas! Sientete libre de abrir un issue o enviar un pull request.
+
+Licencia: Este proyecto está bajo la Licencia MIT.
